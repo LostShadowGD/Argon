@@ -8,7 +8,7 @@ let song_url = "https://lostgdps.github.io/py-yt/endpoint/audio/index.html";
 
 function change() {
   switchStatus = $(this).is(':checked');
-  url_label.html(switchStatus ? "Song URL" : "Video URL");
+  url_label.html(switchStatus ? "URL" : "URL");
   form.attr('action', switchStatus ? song_url : video_url)
 }
 
