@@ -129,11 +129,11 @@ header h1 {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #CC8899;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #CC8899;
 }
 
 input:checked + .slider:before {
@@ -174,4 +174,5 @@ input:checked + .slider:before {
   height:68px;
   padding:10px;
   background-color: #CC8899
+  
 }
