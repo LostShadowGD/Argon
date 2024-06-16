@@ -2,6 +2,7 @@
 <head>
   <title>Argon: Open Source YouTube Downloader</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -18,6 +19,25 @@
 
   <section>
     <h3></h3>
+    <form action="" id="form">
+      <span class="with_slider">Video</span>
+      <label class="switch">
+        <input name="url_type" id="url_type" type="checkbox"/>
+          <span class="slider round"></span>
+        </input>
+      </label><span class="with_slider">Audio</span>
+      
+        <br/>
+      
+      <label for="url" style="color:white;" id="url_label">Video URL </label>
+      <input class="video_input" name="url" id="url" placeholder="Video/Song URL"/>
+      
+        <br/>
+      
+      <input class="submit" type="submit"/>
+    </form>
   </section>
 </body>
 </html>
+
+<script src="form.js"></script>
