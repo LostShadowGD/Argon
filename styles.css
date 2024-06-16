@@ -155,15 +155,17 @@ input:checked + .slider:before {
 
 .video_input {
   border-radius:2pt;
-  border: 0px solid black;
+  border: 1px solid #0A0A0A;
   height:34px;
   margin:5px;
   padding:3px;
+  color: #3D3D3D
 }
 
 .submit {
   border-radius:2pt;
-  border: 0px solid black;
+  border: 1px solid #0A0A0A;
   height:34px;
   padding:5px;
+  color: #3D3D3D
 }
