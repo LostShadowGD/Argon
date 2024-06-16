@@ -170,8 +170,8 @@ input:checked + .slider:before {
 
 .submit {
   border-radius:2pt;
-  border: 1px solid #0A0A0A;
+  border: 0px solid black;
   height:34px;
   padding:5px;
-  background-color: #3D3D3D
+  background-color: #CC8899
 }
