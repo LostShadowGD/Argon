@@ -162,7 +162,7 @@ input:checked + .slider:before {
 .video_input {
   border-radius:2pt;
   border: 1px solid #0A0A0A;
-  height:68px;
+  height:48px;
   margin:10px;
   padding:3px;
   background-color: #3D3D3D
@@ -171,7 +171,7 @@ input:checked + .slider:before {
 .submit {
   border-radius:2pt;
   border: 0px solid black;
-  height:68px;
+  height:48px;
   padding:10px;
   background-color: #CC8899
   
