@@ -159,7 +159,7 @@ input:checked + .slider:before {
   height:34px;
   margin:5px;
   padding:3px;
-  color: #3D3D3D
+  background-color: #3D3D3D
 }
 
 .submit {
@@ -167,5 +167,5 @@ input:checked + .slider:before {
   border: 1px solid #0A0A0A;
   height:34px;
   padding:5px;
-  color: #3D3D3D
+  background-color: #3D3D3D
 }
