@@ -3,8 +3,8 @@ let toggle = $("#url_type");
 let form = $("#form");
 
 let switchStatus;
-let video_url = "https://lostgdps.github.io/py-yt/endpoint/index.html";
-let song_url = "https://lostgdps.github.io/py-yt/endpoint/audio/index.html";
+let video_url = "https://lostshadowgd.github.io/py-yt/endpoint/index.html";
+let song_url = "https://lostshadowgd.github.io/py-yt/endpoint/audio/index.html";
 
 function change() {
   switchStatus = $(this).is(':checked');
