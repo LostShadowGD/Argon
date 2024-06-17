@@ -173,6 +173,6 @@ input:checked + .slider:before {
   border: 0px solid black;
   height:48px;
   padding:10px;
-  background-color: #CC8899
+  background-color: #B303FF
   
 }
